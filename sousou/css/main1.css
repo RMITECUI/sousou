@@ -51,9 +51,6 @@
 .mb60{
 	margin-bottom: 60px;
 }
-.mt40{
-	margin-top: 40px;
-	}
 .mt5{
 	margin-top: 5px;
 }
@@ -61,11 +58,11 @@
 .ss-successbox{
 	width: 88%;
 	text-align: center;
-	margin: auto;
+	margin: 0 auto;
 }
 .mt40{
 	margin-top: 40px;
-	}
+}
 .ss-success{
 	width: 4em;
 	height: auto;	
@@ -73,7 +70,7 @@
 .font16{
 	font-size: 16px;
 }
-.color6{
+.color666{
 	color: #666666;
 }
 /*mycar*/
