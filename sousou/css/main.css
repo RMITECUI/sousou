@@ -271,5 +271,7 @@ body, input, select, textarea {
 .color999{
 	color: #999;
 }
-
+.mui-bar{
+	box-shadow: 0 0 1px #CCCCCC;
+}
 
