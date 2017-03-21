@@ -262,6 +262,9 @@ body, input, select, textarea {
 }
 /*mycar*/
 .icon-nonrecord:before { content: "\e604"; }
+.icon-success:before { content: "\e606"; }
+.icon-nonrecord{ color: #999999;}
+.icon-success{ color: #00c1f1;}
 .font60{
 	font-size: 60px;
 }
