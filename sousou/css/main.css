@@ -1,0 +1,187 @@
+@font-face {font-family: "iconfont";
+        src:url('../fonts/iconfont.ttf') format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    }
+
+    .iconfont {
+        font-family:"iconfont" !important;
+        font-size:16px;
+        font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+    }
+/* iconfont字体部分 start*/
+.icon-loan:before { content: "\e766"; }
+.icon-real:before { content: "\ea37"; }
+.icon-repayloan:before { content: "\e644"; }
+.icon-address:before { content: "\e61d"; }
+.icon-mycar:before { content: "\e651"; }
+.icon-loan1:before { content: "\e601"; }
+/* iconfont字体部分 end*/
+ul,ol,li{
+	list-style: none;
+	margin: 0;
+}
+body, input, select, textarea {
+    font-size: 14px;
+}
+.mui-icon-back:before, .mui-icon-left-nav:before {
+    color: #00c1f1;
+}
+.mui-icon-home:before,.mui-bar-tab .mui-tab-item.mui-active {
+    color: #00c1f1;
+}
+.mt20{
+	margin-top: 20px;
+}
+.mt10{ 
+	margin-top: 10px;
+}
+.mt15{
+	margin-top: 15px;
+}
+/*index*/
+.ss-iLoan p{
+	color:#999999;
+}
+.mui-media-body{
+	color:#666;
+}
+.ss-iLoan .mui-table-view .mui-table-view-cell{
+	height: 84px;
+}
+.mui-table-view:after{
+	height: 0;
+}
+.mui-table-view:before{
+	height: 0;
+}
+.mui-table-view-cell{
+	padding:10px 13px;
+}
+/*realName*/
+.mui-input-group .mui-input-row{
+	height: 45px;
+}
+.mui-input-row label{
+	padding:12px 4%;
+	line-height: 21px;
+	color: #666;
+}
+.mui-title {
+    font-size: 15px;
+    color: #666;
+}
+.mui-input-row input {
+    padding: 12px 4%;
+    height: 45px;
+}
+.mui-input-group input:last-child {
+    background-image: none;
+}
+.mui-input-group .mui-input-row:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 15px;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #c8c7cc;
+}
+.mui-table-view-cell:after {
+    left: 4%;
+}
+.ss-mui-input-group input {
+    width: 50%;
+    float: left;
+}
+.ss-mui-input-group input{
+	width: 50%;
+	float: left;
+	}
+.ss-mui-input-group .prop-txt{
+	float: right;
+	padding-top: 12px;
+	padding-right: 4%;
+	}
+.ss-mui-input-group .prop-pink{
+	float: right;
+	padding-top: 12px;
+	padding-right: 4%;
+	}
+.ss-mui-input-group .prop-seg{
+	float: right;
+	padding-top: 12px;
+	padding-right: 4%;
+	}
+.ss-mui-input-group .prop-name{
+	float: left;
+	padding-top: 12px;
+	padding-left: 4%;}
+.ss-mui-input-group .prop-sum{
+	float: right;
+	padding-top: 12px;
+	padding-right: 5px;
+	}
+.ss-btn-block{
+	width: 92%;
+	margin: 0 auto;
+	padding: 5px 0;
+}
+.ss-btn-primary{
+	background-color: #00c1f1; 
+	border-color:#00c1f1; 
+	color: #fff; 
+	}
+.ss-btn-primary:focus{
+	background-color:#00b6e3 !important;
+	}
+.mui-input-group:before{
+	height: 0px;
+}
+.mui-input-group:after{
+	height: 0px;
+}
+.mui-input-group .mui-input-row:last-child:after{
+	height: 0px;
+}
+/*userCenter*/
+.icon-real,.icon-repayloan,.icon-address,.icon-mycar,.icon-loan1{
+	font-size: 24px;
+	padding-right: 10px;
+}
+.icon-real{
+	color: #00c1f1;
+}
+.icon-repayloan{
+	color: #b3da59;
+}
+.icon-address{
+	color: #f0ad3c;
+}
+.icon-mycar{
+	color: #fb6469;
+}
+.icon-loan1{
+	color: #e57cff;
+}
+.ss-touxiang{
+	padding:10px;
+	line-height: 30px;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	margin-top: 15px;
+}
+.ss-touxiang li{
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+}
+.ss-touxiang li:first-child{
+	width: 15%;
+	margin-right: 10px;
+}
+.float_l{
+	float: left;
+}
