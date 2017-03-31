@@ -226,7 +226,17 @@ body, input, select, textarea {
 	width: 48%;
 	height: 7rem;
 	border: 1px solid #BBBBBB;
-	text-align: center; 
+	text-align: center;
+	background:url(../img/plus_bg.png) no-repeat center center;
+	position: relative;
+}
+.ss-upload-tishi{
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	margin-bottom: 0;
+	width: 100%;
+	text-align: center;
 }
 .float_r{
 	float: right;
